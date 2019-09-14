@@ -1,8 +1,6 @@
 body {
-		font-family: 'Chivo', sans-serif;
+		font-family: 'Chivo', sans-serif; /*define the font type for the page */
 		width: 100%;
-    height: auto;
-    font-size: 100%;
 
 }
 
@@ -12,7 +10,7 @@ body {
 	
 }
 
-.con {
+.content {
 
 		display: inline-block; /*to have the logo and the the headline text in one line */
 		text-align: center;	
@@ -21,18 +19,18 @@ body {
 }
 
 h1 {
-	
-		color: saddlebrown;
-		height: 5%;
-		position: absolute;
-		top: 20px;
-		bottom: 20px;
-}
+  	
+  		color: saddlebrown;
+  		height: 5%;
+  		position: absolute;
+  		top: 20px;
+  		bottom: 20px;
+  }
 
 
 
 ul{
-	     list-style-type: none;
+	   list-style-type: none;*/
        margin: 0; /*sets all the margin properties*/
        padding: 0; /*used to generate space around content*/
        overflow: hidden; /*whether to clip content or to add scrollbars */
@@ -61,50 +59,62 @@ ul{
 
      	font-size: 5vw;
      	text-align: center;
+
      }
 
-  
+   
 
-  
-     .content{
+    table {
 
+    	width: 100%;
+    	border: 10px;
+    	position: relative;
+    	top: 1em;
       
-      width: 25%;
-      top: 1em;
-      position: relative;
-      display:inline-block; /*this make the column in one line*/
-      text-align: justify-all; /*this make the text justified with the image*/
-      color: rosybrown;
-      font-weight: bold;
-      
-      
+      margin: 5px;
+      padding: 0px;
 
+    	
     }
+   
+
+    td {
+
+      font-weight: bold;
+      color: brown;
+      text-align:justify; /*this make the text justified with the image*/
+      border: 1px;
+    
+      }
 
 
-    .content2{
+    .first{
 
-      margin-left: 40em; /*to move the second column of the blog to the left*/
+      width: 15em;
+
+     }
+
+
+    .second {
+      
+     width: 15em;
+      padding-left: 13em;
+      
     }
     
 
-   
-	
-    img { 
-     max-width: 100%;
-      }
-
+    
     hr{
     	 border: 3px solid cadetblue; /*thick line*/
     }
 
     footer {
 	
-		text-align: center;
-	}
+	text-align: center;
+    }
 
-	.contact{
-		width: 100%;
-		height: 100%;
+    .contact{
+  	width: 100%;
+  	height: 100%;
 
-	}
+   }
